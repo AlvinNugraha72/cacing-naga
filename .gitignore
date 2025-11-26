@@ -1,0 +1,9 @@
+# Konfigurasi VS Code
+.vscode/
+
+# Folder Kompilasi Java
+bin/
+
+# File Kompilasi
+*.class
+*.jar
