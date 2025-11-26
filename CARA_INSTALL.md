@@ -1,46 +1,65 @@
-🎮 Proyek Game Java Cacing Naga
-Game sederhana ini dibuat dengan Java dan dapat dijalankan langsung menggunakan Command Line (Terminal/CMD).
+# 🎮 Game Java --- *Cacing Naga*
 
-⬇️ Prasyarat (Prerequisites)
-Untuk menjalankan game ini, Anda harus memiliki:
+Game sederhana berbasis Java yang dapat dijalankan langsung melalui
+**Command Line (Terminal/CMD)** tanpa membutuhkan IDE seperti VS Code
+atau Eclipse. Cocok untuk latihan dasar pemrograman Java dan pengelolaan
+proyek sederhana.
 
-Java Development Kit (JDK): Versi 8 atau lebih baru.
+------------------------------------------------------------------------
 
-Git: Untuk mengunduh kode sumber.
+## 📌 Prasyarat (Prerequisites)
 
-🚀 Cara Mengunduh dan Menjalankan Game
-Ikuti langkah-langkah di bawah ini. Pastikan Anda sudah menginstal JDK dan Git.
+Sebelum menjalankan game ini, pastikan perangkat Anda memiliki:
 
-Langkah 1: Kloning Repositori
-Buka terminal atau Command Prompt dan gunakan perintah git clone untuk mengunduh seluruh proyek ke komputer Anda:
+-   **Java Development Kit (JDK)** --- Versi **8 atau lebih baru**
+-   **Git** --- Untuk mengunduh (clone) repository
 
-Bash
+------------------------------------------------------------------------
 
+## 🚀 Cara Mengunduh dan Menjalankan Game
+
+### **1. Kloning Repositori**
+
+Unduh project ke komputer Anda menggunakan Git:
+
+``` bash
 git clone https://github.com/[GANTI_DENGAN_USERNAME_ANDA]/cacing-naga.git
-(Ganti [GANTI_DENGAN_USERNAME_ANDA] dengan nama pengguna GitHub Anda.)
+```
 
-Langkah 2: Navigasi ke Folder Proyek
-Masuk ke folder proyek yang baru saja diunduh, lalu masuk ke folder utama kode:
+> Ganti `[GANTI_DENGAN_USERNAME_ANDA]` dengan username GitHub Anda.
 
-Bash
+------------------------------------------------------------------------
 
+### **2. Masuk ke Folder Proyek**
+
+``` bash
 cd cacing-naga
-cd cacingNaga 
-Langkah 3: Kompilasi Kode Sumber
-Kompilasi semua file sumber Java (.java) Anda yang berada di dalam folder src untuk menghasilkan file kelas (.class):
+cd cacingNaga
+```
 
-Bash
+------------------------------------------------------------------------
 
-# Kompilasi semua file .java di direktori src
+### **3. Kompilasi Kode Sumber**
+
+Kompilasi seluruh file `.java` di folder `src`:
+
+``` bash
 javac ./lib/src/*.java
-Langkah 4: Jalankan Game
-Setelah kompilasi berhasil, jalankan file kelas utama Anda, yang kami asumsikan adalah GameEvolusi:
+```
 
-Bash
+------------------------------------------------------------------------
 
-# Jalankan kelas utama (perhatikan penulisan nama paket/folder)
+### **4. Jalankan Game**
+
+Setelah kompilasi berhasil, jalankan kelas utama **GameEvolusi**:
+
+``` bash
 java lib.src.GameEvolusi
-Game Cacing Naga Anda sekarang akan terbuka!
+```
+
+Game Anda sekarang akan terbuka dan siap dimainkan! 🎉🐉
+
+------------------------------------------------------------------------
 
 # 📁 Struktur Proyek
 
