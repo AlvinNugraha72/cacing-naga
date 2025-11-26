@@ -42,14 +42,37 @@ Bash
 java lib.src.GameEvolusi
 Game Cacing Naga Anda sekarang akan terbuka!
 
-📁 Struktur Proyek (Untuk Pengembang)
-cacing-naga/
-├── .gitignore
-├── README.md
-├── cacingNaga/
-│   ├── lib/
-│   │   └── src/             # Folder berisi file .java utama
-│   │       ├── resources/   # Aset (gambar cacing.png, naga.png, dll.)
-│   │       ├── ChartPanel.java
-│   │       └── GameEvolusi.java
-└── ...
+# 📁 Struktur Proyek
+
+    cacing-naga/
+    ├── .gitignore
+    ├── README.md
+    ├── cacingNaga/
+    │   ├── lib/
+    │   │   └── src/             
+    │   │       ├── resources/     # Aset game (cacing.png, naga.png, dll.)
+    │   │       ├── ChartPanel.java
+    │   │       └── GameEvolusi.java
+    └── ...
+
+------------------------------------------------------------------------
+
+## ✨ Fitur Game
+
+-   Evolusi karakter dari **cacing → naga**
+-   Tampilan sederhana berbasis Java Swing / AWT
+-   Kontrol mudah
+-   Ringan, berjalan di semua OS (Windows, Linux, macOS)
+
+------------------------------------------------------------------------
+
+## 🤝 Kontribusi
+
+Pull request, ide, atau perbaikan kode sangat diterima!
+
+------------------------------------------------------------------------
+
+## 📜 Lisensi
+
+Project ini menggunakan lisensi bebas --- silakan gunakan, modifikasi,
+dan kembangkan.
